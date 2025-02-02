@@ -1,0 +1,21 @@
+[window]
+opacity =0.1
+
+[font]
+size = 16.0
+
+[font.bold]
+family = "VT323"
+style = "Bold"
+
+[font.bold_italic]
+family = "VT323"
+style = "Bold Italic"
+
+[font.italic]
+family = "VT323"
+style = "Italic"
+
+[font.normal]
+family = "VT323"
+style = "Regular"
