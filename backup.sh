@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Saving Dotfiles
-cp /home/conall/.config/hypr -r /home/conall/dotfiles
-cp /home/conall/.config/alacritty -r /home/conall/dotfiles
-cp /home/conall/.config/mako -r /home/conall/dotfiles
-cp /home/conall/.config/rofi -r /home/conall/dotfiles
-cp /home/conall/.config/neofetch -r /home/conall/dotfiles
+cp ~/.config/hypr -r ~/dotfiles
+cp ~/.config/alacritty -r ~/dotfiles
+cp ~/.config/mako -r ~/dotfiles
+cp ~/.config/rofi -r ~/dotfiles
+cp ~/.config/neofetch -r ~/dotfiles
 
-cp /home/conall/setup.sh /home/conall/dotfiles
-cp /home/conall/backup.sh /home/conall/dotfiles
+cp ~/setup.sh ~/dotfiles
+cp ~/backup.sh ~/dotfiles

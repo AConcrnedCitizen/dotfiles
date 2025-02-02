@@ -31,9 +31,11 @@ cp Kvantum/themes/catppuccin-macchiato-blue -r ~/.config/Kvantum/
 
 FLAGS=$'--enable-features=UseOzonePlatform\n--ozone-platform=wayland'
 
-echo "$FLAGS" >| /home/conall/.config/code-flags.conf
-echo "$FLAGS" >| /home/conall/.config/spotify-flags.conf
-echo "$FLAGS" >| /home/conall/.config/electron-flags.conf
+echo "$FLAGS" >| ~/.config/code-flags.conf
+echo "$FLAGS" >| ~/.config/spotify-flags.conf
+echo "$FLAGS" >| ~/.config/electron-flags.conf
 
-# Settuing Up Git
-git config --global user.email "conall.barry@gmail.com"
+# Downloading dotfiles
+cd /tmp
+git clone https://github.com/AConcrnedCitizen/dotfiles
+cp /dotfiles/* -r ~/.config/
