@@ -20,7 +20,7 @@ cd ..
 git clone https://github.com/google/fonts.git
 cp fonts/ofl/vt323/VT323-Regular.ttf ~/.local/share/fonts/
 
-paru -S --noconfirm spotify albafetch-bin visual-studio-code-bin
+paru -S --noconfirm spotify albafetch-bin visual-studio-code-bin android-studio
 
 # Importing Themes
 cd /tmp
@@ -38,4 +38,10 @@ echo "$FLAGS" >| ~/.config/electron-flags.conf
 # Downloading dotfiles
 cd /tmp
 git clone https://github.com/AConcrnedCitizen/dotfiles
-cp /dotfiles/* -r ~/.config/
+cp dotfiles/hypr -r ~/.config/
+cp dotfiles/alacritty -r ~/.config/
+cp dotfiles/mako -r ~/.config/
+cp dotfiles/rofi -r ~/.config/
+cp dotfiles/neofetch -r ~/.config/
+
+cp *.sh ~/
