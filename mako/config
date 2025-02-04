@@ -31,6 +31,7 @@ border-color=#88c0d0
 
 [app-name=Spotify]
 background-color=#1DB954
+default-timeout=1000
 border-color=#1DB954
 
 [summary~="log-.*"]
